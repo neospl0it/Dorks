@@ -450,5 +450,169 @@ intitle:opengroupware.org “resistance is obsolete” “Report Bugs” “User
 intitle:open-xchange inurl:login.pl
 ```
 
+#### Description of the "filetype" Parameter:
+The "filetype" parameter is used in Google searches to specify the type of file desired in search results. It helps narrow down results to specific file types, such as PDF, DOC, or JPG. This parameter is particularly useful when searching for documents, presentations, or other file formats on the web.
+
+```markdown
+filetype:bak createobject sa
+filetype:bak inurl:”htaccess|passwd|shadow|htusers”
+filetype:cfg mrtg “target
+filetype:cfm “cfapplication name” password
+filetype:conf oekakibbs
+filetype:conf slapd.conf
+filetype:config config intext:appSettings “User ID”
+filetype:dat “password.dat”
+filetype:dat inurl:Sites.dat
+filetype:dat wand.dat
+filetype:inc dbconn
+filetype:inc intext:mysql_connect
+filetype:inc mysql_connect OR mysql_pconnect
+filetype:inf sysprep
+filetype:ini inurl:”serv-u.ini”
+filetype:ini inurl:flashFXP.ini
+filetype:ini ServUDaemon
+filetype:ini wcx_ftp
+filetype:ini ws_ftp pwd
+filetype:ldb admin
+filetype:log “See `ipsec –copyright”
+filetype:log inurl:”password.log”
+filetype:mdb inurl:users.mdb
+filetype:mdb wwforum
+filetype:netrc password
+filetype:pass pass intext:userid
+filetype:pem intext:private
+filetype:properties inurl:db intext:password
+filetype:pwd service
+filetype:pwl pwl
+filetype:reg reg +intext:”defaultusername” +intext:”defaultpassword”
+filetype:reg reg +intext:Ã¢? WINVNC3Ã¢?
+filetype:reg reg HKEY_CURRENT_USER SSHHOSTKEYS
+filetype:sql “insert into” (pass|passwd|password)
+filetype:sql (“values * MD5” | “values * password” | “values * encrypt”)
+filetype:sql +”IDENTIFIED BY” -cvs
+filetype:sql password
+filetype:url +inurl:”ftp://” +inurl:”;@”
+filetype:xls username password email
+filetype:bkf bkf
+filetype:blt “buddylist”
+filetype:blt blt +intext:screenname
+filetype:cfg auto_inst.cfg
+filetype:cnf inurl:_vti_pvt access.cnf
+filetype:conf inurl:firewall -intitle:cvs
+filetype:config web.config -CVS
+filetype:ctt Contact
+filetype:ctt ctt messenger
+filetype:eml eml +intext:”Subject” +intext:”From” +intext:”To”
+filetype:fp3 fp3
+filetype:fp5 fp5 -site:gov -site:mil -“cvs log”
+filetype:fp7 fp7
+filetype:inf inurl:capolicy.inf
+filetype:lic lic intext:key
+filetype:log access.log -CVS
+filetype:log cron.log
+filetype:mbx mbx intext:Subject
+filetype:myd myd -CVS
+filetype:ns1 ns1
+filetype:ora ora
+filetype:ora tnsnames
+filetype:pdb pdb backup (Pilot | Pluckerdb)
+filetype:php inurl:index inurl:phpicalendar -site:sourceforge.net
+filetype:pot inurl:john.pot
+filetype:PS ps
+filetype:pst inurl:”outlook.pst”
+filetype:pst pst -from -to -date
+filetype:qbb qbb
+filetype:QBW qbw
+filetype:rdp rdp
+filetype:reg “Terminal Server Client”
+filetype:vcs vcs
+filetype:wab wab
+filetype:xls -site:gov inurl:contact
+filetype:xls inurl:”email.xls”
+filetype:asp DBQ=” * Server.MapPath(“*.mdb”)
+filetype:bkf bkf
+filetype:blt “buddylist”
+filetype:blt blt +intext:screenname
+filetype:cfg auto_inst.cfg
+filetype:cnf inurl:_vti_pvt access.cnf
+filetype:conf inurl:firewall -intitle:cvs
+filetype:config web.config -CVS
+filetype:ctt Contact
+filetype:ctt ctt messenger
+filetype:eml eml +intext:”Subject” +intext:”From” +intext:”To”
+filetype:fp3 fp3
+filetype:fp5 fp5 -site:gov -site:mil -“cvs log”
+filetype:fp7 fp7
+filetype:inf inurl:capolicy.inf
+filetype:lic lic intext:key
+filetype:log access.log -CVS
+filetype:log cron.log
+filetype:mbx mbx intext:Subject
+filetype:myd myd -CVS
+filetype:ns1 ns1
+filetype:ora ora
+filetype:ora tnsnames
+filetype:pdb pdb backup (Pilot | Pluckerdb)
+filetype:php inurl:index inurl:phpicalendar -site:sourceforge.net
+filetype:pot inurl:john.pot
+filetype:PS ps
+filetype:pst inurl:”outlook.pst”
+filetype:pst pst -from -to -date
+filetype:qbb qbb
+filetype:QBW qbw
+filetype:rdp rdp
+filetype:reg “Terminal Server Client”
+filetype:vcs vcs
+filetype:wab wab
+filetype:xls -site:gov inurl:contact
+filetype:xls inurl:”email.xls”
+filetype:pdf “Assessment Report” nessus
+filetype:php inurl:ipinfo.php “Distributed Intrusion Detection System”
+filetype:php inurl:nqt intext:”Network Query Tool”
+filetype:vsd vsd network -samples -examples
+filetype:asp + “[ODBC SQL”
+filetype:asp “Custom Error Message” Category Source
+filetype:log “PHP Parse error” | “PHP Warning” | “PHP Error”
+filetype:php inurl:”logging.php” “Discuz” error
+filetype:cgi inurl:”fileman.cgi”
+filetype:cgi inurl:”Web_Store.cgi”
+filetype:php inurl:vAuthenticate
+filetype:pl intitle:”Ultraboard Setup”
+filetype:ASP ASP
+filetype:ASPX ASPX
+filetype:BML BML
+filetype:cfg ks intext:rootpw -sample -test -howto
+filetype:cfm “cfapplication name” password
+filetype:CFM CFM
+filetype:CGI CGI
+filetype:conf inurl:psybnc.conf “USER.PASS=”
+filetype:dat “password.dat
+filetype:DIFF DIFF
+filetype:DLL DLL
+filetype:DOC DOC
+filetype:FCGI FCGI
+filetype:HTM HTM
+filetype:HTML HTML
+filetype:inf sysprep
+filetype:JHTML JHTML
+filetype:JSP JSP
+filetype:log inurl:password.log
+filetype:MV MV
+filetype:pdf “Assessment Report” nessus
+filetype:PDF PDF
+filetype:PHP PHP
+filetype:PHP3 PHP3
+filetype:PHP4 PHP4
+filetype:PHTML PHTML
+filetype:PL PL
+filetype:PPT PPT
+filetype:PS PS
+filetype:SHTML SHTML
+filetype:STM STM
+filetype:SWF SWF
+filetype:TXT TXT
+filetype:XLS XLS
+```
+
 
 Please ensure to use your skills responsibly and legally.
